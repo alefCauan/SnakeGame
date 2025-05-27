@@ -39,7 +39,7 @@ class Snake(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
         
         self._length = 0
-        self._pos = Pos(0, 0)  # Grid coordinates
+        self._pos = Pos(0, )  # Grid coordinates
         self._body = []  # List of Pos objects for body segments
         self._last_move = Pos()
         self.apple = None
